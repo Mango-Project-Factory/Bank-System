@@ -90,11 +90,12 @@ def output(string:str):
     }
     return stringDict[string]
 
-def line():
-    print('='*100)
+def line(): print('='*100)
 
 line()
-print('歡迎來到芒果銀行！！！\n若您是新用戶，請先創建帳戶 輸入"create account"）\n刪除帳戶 請輸入"delete account"\n存款 請輸入"save money"\n取款 請輸入"take money"\n離開此系統 請輸入"leave"')
+print('本系統由芒果凍布丁製作', '有問題請至Discord找本作者: YT Mango#4092', 'Github: https://github.com/EvanHsieh0415', '本著作使用創用CC授權 CC BY-NC-ND 3.0 TW', sep='\n')
+line()
+print('歡迎來到芒果銀行！！！', '若您是新用戶，請先創建帳戶 輸入"create account"）', '刪除帳戶 請輸入"delete account"', '存款 請輸入"save money"', '取款 請輸入"take money"', '離開此系統 請輸入"leave"', sep='\n')
 line()
 
 tragger = True
